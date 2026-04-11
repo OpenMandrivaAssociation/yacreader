@@ -13,6 +13,7 @@ License:	GPLv3+ and BSD and MIT
 Group:	Graphics
 Url:	https://www.yacreader.com
 Source0:	https://github.com/YACReader/yacreader/releases/download/%{version}/%{name}-%{version}-src.tar.xz
+BuildRequires:		make
 BuildRequires:		qt6-qttools-linguist-tools
 BuildRequires:		qt6-qtimageformats-devel
 BuildRequires:		pkgconfig(glu)

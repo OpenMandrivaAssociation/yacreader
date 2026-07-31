@@ -5,7 +5,7 @@
 
 Summary:	Cross platform comic reader and library manager
 Name:	yacreader
-Version:	10.0.0
+Version:	10.1.0.260703260
 Release:	1
 # The entire source code is GPLv3+ except for:
 # QsLog and folder_model (BSD) and pictureflow (MIT)
@@ -13,7 +13,7 @@ License:	GPLv3+ and BSD and MIT
 Group:	Graphics
 Url:	https://www.yacreader.com
 Source0:	https://github.com/YACReader/yacreader/releases/download/%{version}/%{name}-%{version}.tar.gz
-Patch0:	yacreader-10.0.0-fix-systemd-unit-install-path.patch
+# dropped (no longer applies): Patch0:	yacreader-10.1.0.260703260-fix-systemd-unit-install-path.patch
 BuildRequires:		cmake >= 3.25
 BuildRequires:		make
 BuildRequires:		qt6-qttools-linguist-tools
@@ -68,7 +68,7 @@ files.
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1
+%autosetup -p1 -n yacreader-10.1.0
 
 
 

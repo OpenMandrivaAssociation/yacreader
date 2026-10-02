@@ -74,7 +74,8 @@ files.
 
 %build
 %cmake	-DBUILD_TESTS=OFF \
-					-DBUILD_SERVER_STANDALONE=OFF
+					-DBUILD_SERVER_STANDALONE=OFF \
+					-DDECOMPRESSION_BACKEND=unarr
 
 %make_build
 

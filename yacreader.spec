@@ -13,7 +13,7 @@ License:	GPLv3+ and BSD and MIT
 Group:	Graphics
 Url:	https://www.yacreader.com
 Source0:	https://github.com/YACReader/yacreader/releases/download/%{version}/%{name}-%{version}.tar.gz
-# dropped (no longer applies): Patch0:	yacreader-10.1.0.260703260-fix-systemd-unit-install-path.patch
+Patch0:	yacreader-10.0.0-fix-systemd-unit-install-path.patch
 BuildRequires:		cmake >= 3.25
 BuildRequires:		make
 BuildRequires:		qt6-qttools-linguist-tools

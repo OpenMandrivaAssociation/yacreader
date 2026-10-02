@@ -6,7 +6,7 @@
 Summary:	Cross platform comic reader and library manager
 Name:	yacreader
 Version:	10.1.0.260703260
-Release:	1
+Release:	2
 # The entire source code is GPLv3+ except for:
 # QsLog and folder_model (BSD) and pictureflow (MIT)
 License:	GPLv3+ and BSD and MIT
